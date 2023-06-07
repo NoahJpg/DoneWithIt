@@ -1,7 +1,7 @@
-import React from 'react';
-import { View } from 'react-native';
-import WelcomeScreen from './app/screens/WelcomeScreen';
-import ViewImageScreen from './app/screens/ViewImageScreen';
+import React from "react";
+import { View} from "react-native";
+
+import AppText from "./app/components/AppText";
 
 export default function App() {
   return (
@@ -12,16 +12,7 @@ export default function App() {
         alignItems: "center",
       }}
     >
-      <View 
-        style={{
-        backgroundColor: "dodgerblue",
-        width: 100,
-        height: 100,
-        borderWidth: 10,
-        borderColor: "royalblue",
-        borderRadius: 50,
-      }}
-      ></View>
+      <AppText> I love React Native!</AppText>
     </View>
   );
 }
