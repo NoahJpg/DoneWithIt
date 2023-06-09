@@ -1,8 +1,15 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, StyleSheet, SafeAreaView, StatusBar } from 'react-native';
 
-function Screen(props) {
-  
+
+function Screen({ children }) {
+  return <SafeAreaView style={styles.screen}>{children}</SafeAreaView>
 }
+
+const styles = StyleSheet.create({
+  screen: {
+    paddingTop: StatusBar.currentHeight
+  }
+})
 
 export default Screen;
