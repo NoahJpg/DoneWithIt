@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import { TextInput, View, Text } from "react-native";
 
 import Screen from "./app/components/Screen";
-import MessagesScreen from "./app/screens/MessagesScreen";
+import Icon from "./app/components/Icon";
+import ListItem from "./app/components/ListItem";
+import AccountScreen from "./app/screens/AccountScreen";
 
 export default function App() {
-  const [firstName, setFirstName] = useState("");
-
-  return <MessagesScreen />;
+  return (
+    <AccountScreen />
+  );
 }
