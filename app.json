@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "DoneWithIt",
-    "slug": "DoneWithIt",
+    "name": "AI Chatbot",
+    "slug": "ai-chatbot",
+    "description": "Proof of concept chat app using ChatGPT and React Native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./app/assets/icon.png",
