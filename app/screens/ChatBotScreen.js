@@ -11,9 +11,10 @@ import {
 import { Configuration, OpenAIApi } from "openai";
 
 import colors from "../config/colors";
-// import {API_KEY} from "@env"
+import {API_KEY} from "@env"
 
-const apiKey = "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";
+console.log(API_KEY)
+const apiKey = API_KEY;
 
 const configuration = new Configuration({
   apiKey: apiKey,
